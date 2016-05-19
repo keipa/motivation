@@ -13,7 +13,19 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  /*background: url(http://subtlepatterns.com/patterns/stardust.png);*/
+background: linear-gradient(86deg, #d5c917, #32a846, #7a51a1);
+background-size: 600% 600%;
+
+animation: AnimationName 12s ease infinite;
 }
+
+@keyframes AnimationName { 
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+
 
 body {
   -moz-osx-font-smoothing: grayscale;
@@ -25,18 +37,18 @@ body {
 
 body, input {
   display: -webkit-flex;
-  font-family: 'Avenir', 'helvetica neue', helvetica, arial, sans-serif;
+  font-family: 'Myriad Pro', 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 .age-label {
-  color: #B0B5B9;
+  color: #FFF;
   font-size: 1.2rem;
   line-height: 1;
   margin: 0 0 0 2px;
 }
 
 .count {
-  color: #494949;
+  color: #FFF;
   margin: 0;
   font-size: 6rem;
   line-height: 1;
@@ -65,8 +77,8 @@ input {
   border-width: 1px;
   border-style: solid;
   border-radius: 0.25rem;
-  border-color: #CCC;
-  background-color: #FFF;
+  border-color: #3C3E46;
+  background-color: #3C3E46;
 }
 
 button {
