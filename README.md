@@ -1,4 +1,4 @@
-Motivation
+Motivation.Google Chrome new tab extension
 ========
 
 Your age. With a nice animated gradient background.
