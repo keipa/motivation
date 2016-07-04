@@ -7,4 +7,4 @@ mail me if you dont know how to install extension
 nichogaus@gmail.com
 vk.com/row_nick
 
-![](screenshot.jpg)
+![](Dh5XM5E3k8.gif)
