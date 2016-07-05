@@ -29,16 +29,16 @@ App.fn.load = function(){
 
 App.fn.save = function(){
   if (this.dob)
-    localStorage.dob = this.dob.getTime();
+    localStorage.dob = this.dob
 };
 
 App.fn.submit = function(e){
   e.preventDefault();
 
   var input = this.$$('input')[0];
-  if ( !input.valueAsDate ) return;
 
-  this.dob = input.valueAsDate;
+
+  this.dob = input.valueAsNumber;
   this.save();
   this.renderAgeLoop();
 };
