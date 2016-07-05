@@ -135,6 +135,15 @@ input {
   background-color: #3C3E46;
 }
 
+age-label
+{
+	color: #FFF;
+
+
+
+}
+
+
 button {
   outline: none;
   display: block;
